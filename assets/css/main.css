@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+html {
+    color: #222;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #fff;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+body {
+    background: #7d1c91;
+}
+h1 {
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 25px;
+}
+h3 { 
+    color: #000;
+}
+p { 
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+}
+section.top {
+    height: auto;
+    margin-bottom: 25px;
+}
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left-container {
+    float: left;
+    width: 15%;
+    background: #412993;
+    min-height: 550px;
+}
+.left-container li {
+    display: block;
+    margin:30px 20px;
+}
+.left-container a { 
+    clear: both;
+    display: block;
+    height: auto;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    padding: 0 10px;
+    width: 90%;
+}
+.left-container a.active, .left-container a:hover  {
+    background: #2cfed5;
+    color: #412993;
+}
+.right-container {
+    float: right;
+    width: 85%;
+    background: #fff;
+    min-height: 550px;
+
+}
+article {
+    clear: both;
+    padding: 30px;
+}
+article div.artc {
+    display: inline;
+    vertical-align: top;
+    float: left;
+    margin: 0 20px;
+}
+article img {
+    float: left;
+}
+article h2 {
+    color: #412993;
+    border: 1px solid #fff;
+}
+article h2:hover {
+    border : 1px dotted blue;
+}
+article p {
+    color: #333;
+}
+footer {
+    clear: both;
+}
+ul, ol {
+    list-style-type: none;
+}
+footer {
+
+}
+footer a {
+    display: block;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-size: cover !important; 
+    margin: 5px;
+}
+footer ul {
+    height: auto;
+    background: orange;
+    margin-right: 20px;
+}
+footer li a {
+    /*padding: 10px;*/
+    text-indent: -20000px;
+    font-size: 0;
+}
+footer li a:hover {
+    opacity: .7;
+}
+footer a.insta {
+    background: url(../img/insta.png) no-repeat;
+}
+footer a.twitter {
+    background: url(../img/twitter.png) no-repeat;
+}
+footer a.ytube {    
+    background: url(../img/yt.png) no-repeat;
+}
+footer a.fb {
+    background: url(../img/fb.png) no-repeat;
+}
+footer a.linkedin {
+    background: url(../img/linkedin.png) no-repeat;
+
+}footer a.pinterest {
+    background: url(../img/pinterest.png) no-repeat;
+}
+
+body .events, body .articles {display: none}
+body.articles-section .articles, body.events-section .events {display:block;}
+body .articles.active-section {display:block;}
+body.events-section .articles {display: none;}
+
+
+
+
